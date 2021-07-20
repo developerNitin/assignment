@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BioData</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <h1>My Bio Data</h1>
+      <div class="personal-Info">
+        <fieldset>
+          <legend>Personal Information</legend>
+          <label for="firstName">FirstName:</label>
+          <input type="text" id="firstName" placeholder="First Name" />
+          <label for="lastName">Last Name:</label>
+          <input type="text" id="lastName" placeholder="Last Name" />
+          <br />
+          <br />
+          <label for="male">Male:</label>
+          <input type="radio" id="male" />
+          <label for="female">Female:</label>
+          <input type="radio" id="female" />
+          <label for="other">Other:</label>
+          <input type="radio" id="other" />
+          <br />
+          <br />
+
+          <label for="dob">Date of Birth:</label>
+          <input type="date" id="dob" />
+          <br />
+          <br />
+
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" placeholder="Enter your Email" />
+          <br />
+          <br />
+
+          <label for="phone">Phone:</label>
+          <input type="number" id="phone" placeholder="+91" />
+          <br />
+          <br />
+
+          <label for="height">Height</label>
+          <input type="number" id="height" placeholder="Enter height in Feet" />
+        </fieldset>
+      </div>
+      <div class="education">
+        <fieldset>
+          <legend>Education</legend>
+
+          <label for="school">School Name:</label>
+          <input type="text" id="school" placeholder="School Name" />
+          <br /><br />
+
+          <label for="class">Class:</label>
+          <input type="text" id="class" placeholder="Enter Class" />
+          <br /><br />
+
+          <label for="stream">Stream:</label>
+          <select name="stream" id="stream">
+            <option value="">Stream</option>
+            <option value="Non Medical">Non-Medical</option>
+            <option value="Medical">Medical</option>
+            <option value="Commerce">Commerce</option>
+            <option value="Arts">Arts</option>
+          </select>
+          <br /><br />
+
+          <label for="marksheet">Marksheet:</label>
+          <input type="file" id="marksheet" accept=".png,.jpeg,.jpg" />
+        </fieldset>
+      </div>
+      <br />
+
+      <button type="submit">Submit</button>
+    </div>
+  </body>
+</html>
