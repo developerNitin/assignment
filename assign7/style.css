@@ -36,12 +36,14 @@ input {
   width: 200px;
   height: 30px;
   text-align: left;
-  font-size: 25px;
+  font-size: 20px;
   padding: 5px 10px;
   background-color: #b8dfd8;
   border-radius: 1px;
   margin: 10px;
   outline: none;
+  font-family: "Montserrat", sans-serif;
+  color: #4c4c6d;
 }
 button {
   color: #e8f6ef;
