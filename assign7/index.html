@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="od">
+      <div style="display: flex">
+        <input type="text" /><br />
+        <button id="btn" type="submit">Go</button>
+      </div>
+      <div id="id">
+        <p style="font-size: 30px" id="location"></p>
+        <p style="font-size: 17px" id="weather"></p>
+        <p
+          style="font-size: 50px; margin-right: -10px; margin-top: -5px"
+          id="temp"
+        ></p>
+        <p id="minmax"></p>
+        <p style="margin-top: 10px" id="speed"></p>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

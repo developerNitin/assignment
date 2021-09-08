@@ -1,0 +1,77 @@
+body {
+  height: 100vh;
+  font-family: helvetica;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space space-evenly;
+  align-items: center;
+  background-color: #b8dfd8;
+}
+p {
+  margin: 5px;
+  color: #4c4c6d;
+  font-family: "Montserrat", sans-serif;
+}
+#od {
+  background: #e8f6ef;
+  text-align: center;
+  border-radius: 2px;
+  padding: 20px;
+}
+#id {
+  width: 200px;
+  text-align: center;
+  border-radius: 2px;
+  min-height: 190px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+div {
+  margin: 10px auto;
+}
+input {
+  border: none;
+  margin: 10px auto;
+  width: 200px;
+  height: 30px;
+  text-align: left;
+  font-size: 25px;
+  padding: 5px 10px;
+  background-color: #b8dfd8;
+  border-radius: 1px;
+  margin: 10px;
+  outline: none;
+}
+button {
+  color: #e8f6ef;
+  border: none;
+  margin: auto;
+  height: 40px;
+  text-align: center;
+  font-size: 20px;
+  padding: 6px 10px 5px 10px;
+  border-radius: 2px;
+  margin-right: 10px;
+  background-color: #b8dfd8;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+}
+#location {
+  font-size: 20px;
+}
+#time {
+  font-size: 20px;
+}
+#temp {
+  font-size: 30px;
+}
+#minmax {
+  font-size: 15px;
+}
+#weather {
+  font-size: 20px;
+}
+#speed {
+  font-size: 20px;
+}
